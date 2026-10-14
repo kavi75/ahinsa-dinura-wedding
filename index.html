@@ -160,7 +160,7 @@ section{position:relative;overflow:hidden}.section-pad{padding:clamp(66px,9vw,12
       '\\nMessage: '+(data.get('message')||'—')
     );
     // Replace this placeholder with the couple's RSVP email before launch.
-    const rsvpEmail='';
+    const rsvpEmail='dinurasilva77@gmail.com';
     if(!rsvpEmail){showToast('The form is ready. Add the couple’s RSVP email in index.html to enable sending.');return;}
     window.location.href='mailto:'+rsvpEmail+'?subject='+subject+'&body='+body;
   });
